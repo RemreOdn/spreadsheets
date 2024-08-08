@@ -1,4 +1,5 @@
 Attribute VB_Name = "Module2"
+' Seçili kolondaki boş hücreleri siler, sildiği hücrenin yerini alttaki hücreleri yukarı çekerek doldurur.
 Sub DeleteBlankCellsInSelectedColumn()
     Dim ws As Worksheet
     Dim lastRow As Long
